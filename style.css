@@ -1,0 +1,147 @@
+/*@media print { 
+  * {
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+}*/
+@font-face{
+        font-family: 'Droid Serif';
+        src: url('lib/DroidSerif.ttf');
+      }
+      @font-face{
+        font-family: 'Yanone Kaffeesatz';
+        src: url('lib/YanoneKaffeesatz-Regular.ttf');
+      }
+      @font-face{
+        font-family: 'Ubuntu Mono';
+        src: url('lib/UbuntuMono-Regular.ttf');
+      }
+
+      
+        body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+        margin-top: 20px;
+        margin-bottom: 20px        
+      }
+      .titlefont{
+      font-family: 'Yanone Kaffeesatz';
+      }
+     .black {
+        background: #000000;
+        }
+        .gray {
+        background: #C8C8C8;
+        }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-3left {
+        float: left;
+        width: 32%;
+      }
+      .pull-lleft {
+        float: left;
+        width: 32%;
+      }
+      .pull-rright {
+        float: right;
+        width: 64%;
+      }
+      .align-right {
+		text-align: right;
+      }
+      .pull-3center {
+        float: center;
+        width: 32%;
+        display: inline-block;
+      }
+      .pull-3right {
+        float: right;
+        width: 32%;
+      }
+      .vmiddle {
+      display:inline-block;
+       vertical-align: middle;
+      }
+      .small {
+		font-size:small;
+      }
+      .smaller {
+		font-size:80%;
+      }
+      .larger {
+		font-size:140%;
+      }
+      .big {
+		font-size:400%;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .verticalLine {
+		border-left: thick solid #000000;
+	}
+	.red {
+		color: #8B0000;
+	}
+	.yellow {
+		color: #FDD017;
+	}
+	.green {
+		color: #008B00;
+	}
+	.blue {
+		color: #00008B;
+	}
+	.gray {
+		color: #8B8B8B;
+	}
+	.white {
+		color: #ffffff;
+	}
+	.citation {
+		color: #989898;
+		font-size: 90%;
+	}
+	.boxed {
+		border:2px solid #808080;
+		border-radius: 2px;
+		padding: 5px;
+	}
+	.left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+    .left-column h2:last-of-type, .left-column h3:last-child {
+        color: #000;
+    }
+    .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+    }
+    .box{
+		clear: both;
+    }
+    .footer {
+		position:absolute;
+		bottom: 1;
+    }
+    .footnote {
+        position: absolute;
+        bottom: 1em;
+      }
+	.remark-slide-scaler {
+		/*-webkit-transform-origin: initial;*/
+	}
+	
+	.hideCount > div.remark-slide-number  {
+		display: none;
+	}
